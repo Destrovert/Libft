@@ -6,7 +6,7 @@
 /*   By: aait-mal <aait-mal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 13:50:55 by aait-mal          #+#    #+#             */
-/*   Updated: 2022/11/03 18:07:58 by aait-mal         ###   ########.fr       */
+/*   Updated: 2022/11/04 10:54:20 by aait-mal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ static void	fill_word(char *s1, const char *s2, size_t len)
 
 static void	*free_all(char **p, size_t j)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	while (i < j)
